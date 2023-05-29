@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: #222831;
+  color: #d2e9e9;
+}
+
+/* utility class */
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  /* margin: 30px 0px 0px; */
+  padding: 14px 0px;
+  background-color: #000000;
+}
+
+h2 {
+  text-align: center;
+  /* margin-bottom: 70px; */
+}
+
+/* --------------- body ----------------------- */
+
+/* container */
+
+.container {
+  padding: 25px;
+  margin-top: 15px;
+}
+
+.form {
+  padding: 30px;
+  position: relative;
+  border: 2px dashed #3ec1d3;
+  /* background-color: #917FB3; */
+}
+
+#Registration_Form {
+  padding: 0px 52px;
+}
+
+.detail {
+  margin: 30px 0px;
+}
+
+.detail label {
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 30px;
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-right: 7px; */
+}
+
+.space input {
+  position: absolute;
+  right: 25px;
+  width: 280px;
+}
+
+.space label {
+  margin-right: 333px;
+}
+
+.space input {
+  padding: 4px 27px;
+  border-radius: 5px;
+  border: 2px solid #3ec1d3;
+  background: transparent;
+}
+
+/* .checkbox{
+  margin:3px 0px;
+} */
+
+/* .flex3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.language input {
+  margin-right: 7px;
+}
+
+/* button */
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 8px;
+}
+
+.hov {
+  padding: 4px 21px;
+  margin: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid #374259;
+  background-color: #bbe1fa;
+  color: #374259;
+}
+
+.hov:hover {
+  color: #2a2f4f;
+  cursor: pointer;
+  border: 1px solid #2a2f4f;
+  background-color: #00b8a9;
+}
+
+/* output */
+
+.output {
+  width: 33vw;
+  border: 2px dashed #3ec1d3;
+  padding: 30px 52px;
+}
+
+.output .cardContainer {
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.output .card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin: 0.3rem 0;
+  word-wrap: break-word;
+  line-break: strict;
+}
+
+.card img {
+  margin-top: 2.5rem;
+  margin-right: 2.9rem;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.card .info {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.info p {
+  margin-bottom: 0.4rem;
+}
+
+.card .info button {
+  padding: 4px 21px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  border: 2px solid #374259;
+  background-color: #fdcedf;
+  color: #374259;
+}
+.card .info button:hover {
+  color: #2a2f4f;
+  cursor: pointer;
+  border: 1px solid #2a2f4f;
+  background-color: #cbf1f5;
+}
